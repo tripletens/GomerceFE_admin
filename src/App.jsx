@@ -1,5 +1,10 @@
+import { Orders } from "./pages/orders/index";
 const App = () => {
-  return <div>Hello world!</div>;
+  return (
+    <div>
+      <Orders />
+    </div>
+  );
 };
 
 export default App;
